@@ -30,3 +30,9 @@ function appendKitten(name)
   var newKittenArray = [...kittens, name]
   return newKittenArray
 }
+
+function prependKitten(name)
+{
+  var newKittenArray =[name , ...kittens]
+  return newKittenArray
+}
